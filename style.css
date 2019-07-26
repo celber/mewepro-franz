@@ -1,0 +1,26 @@
+.privacymail .sidebar-left {
+    margin: 0;
+}
+
+.privacymail .sidebar_box_header {
+    border-radius: 0;
+}
+
+.c-app-route.privacymail .content-all-wrapper {
+    padding: 0;
+    padding-top: 52px;
+    max-width: 100%;
+    height: calc( 100% )!important;
+}
+
+.c-app-route.privacymail #content-wrapper {
+    max-width: 100%;
+}
+
+.c-mw-chats-list:last-of-type {
+    border-radius: 0;
+}
+
+.c-mw-chat-window {
+    border-radius: 0!important;
+}

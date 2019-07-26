@@ -1,0 +1,17 @@
+{
+    "id": "mewepro",
+    "name": "MeWe Pro",
+    "version": "1.0.0",
+    "description": "MeWe Pro",
+    "main": "index.js",
+    "author": "Sgrouples Inc.",
+    "license": "MIT",
+    "config": {
+        "serviceURL": "https://mewepro.com/{teamId}/chat/",
+        "hasNotificationSound": true,
+        "hasTeamId": true,
+        "hasIndirectMessages": true,
+        "urlInputSuffix": "/chat/",
+        "urlInputPrefix": "https://mewepro.com/"
+    }
+}
