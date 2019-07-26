@@ -4,7 +4,14 @@ module.exports = (Franz) => {
     const getNotifications = () => {
         const notifications = $('.header_inner .indicator').length;
 
-        Franz.setBadge(!!notifications);
+        let messages = 0;
+        
+        $('.chats-list-element .indicator .number').each(function () {
+            const num = Number($( this ).text());
+            messages += num === NaN ? 1 : num;
+        })
+
+        Franz.setBadge(messages, !!notifications);
     }
 
     Franz.loop(getNotifications);
