@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = (Franz) => {
     const getNotifications = () => {
-        const notifications = $('.header_inner .indicator').length;
+        const notifications = $('.header_inner .indicator').not('.hidden').length;
 
         let messages = 0;
         
