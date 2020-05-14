@@ -2,12 +2,12 @@ const path = require('path');
 
 module.exports = (Franz) => {
     const getNotifications = () => {
-        const notifications = $('.header_inner .indicator').not('.hidden').length;
+        const notifications = Array.from(document.querySelectorAll('.main-header_inner .m-indicator')).length;
 
         let messages = 0;
         
-        $('.chats-list-element .indicator .number').each(function () {
-            const num = Number($( this ).text());
+        Array.from(document.querySelectorAll('.chats-list-element .m-indicator .number')).forEach(function (el) {
+            const num = Number(el.innerHTML);
             messages += num === NaN ? 1 : num;
         })
 

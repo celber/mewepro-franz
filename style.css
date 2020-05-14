@@ -1,20 +1,22 @@
-.privacymail .sidebar-left {
+.c-app-chat-index-pro .c-sidebar-left {
     margin: 0;
+    height: calc(100vh - 54px);
 }
 
-.privacymail .sidebar_box_header {
+.c-app-chat-index-pro .mw-box_header {
     border-radius: 0;
 }
 
-.c-app-route.privacymail .content-all-wrapper {
+.c-app-chat-index-pro.content-all-wrapper {
     padding: 0;
     padding-top: 52px;
     max-width: 100%;
     height: calc( 100% )!important;
 }
 
-.c-app-route.privacymail #content-wrapper {
+.c-app-chat-index-pro #content-wrapper {
     max-width: 100%;
+    height: calc(100vh - 54px);
 }
 
 .c-mw-chats-list:last-of-type {

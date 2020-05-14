@@ -7,7 +7,7 @@
     "author": "Sgrouples Inc.",
     "license": "MIT",
     "config": {
-        "serviceURL": "https://mewepro.com/{teamId}/chat/",
+        "serviceURL": "https://mewepro.com/",
         "hasNotificationSound": true,
         "hasTeamId": true,
         "hasIndirectMessages": true,
